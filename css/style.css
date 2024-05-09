@@ -231,6 +231,37 @@ img {
   text-align: center;
 }
 
+/* FOURTH SECTION */
+.fourth-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.fourth-section-title {
+  margin-bottom: 72px;
+}
+
+.fourth-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.fourth-section-li {
+  width: calc((100% - 48px) / 3);
+}
+
+.app-card {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.app-category-title {
+  margin-bottom: 8px;
+}
+
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
