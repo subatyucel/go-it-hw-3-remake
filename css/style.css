@@ -140,12 +140,25 @@ img {
 }
 
 /* SECOND SECTION */
+.second-section {
+  padding: 120px 0;
+}
+
+.second-section-list {
+  display: flex;
+  gap: 24px;
+}
+.second-section-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-p {
