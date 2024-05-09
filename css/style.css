@@ -101,6 +101,7 @@ img {
 
 .first-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .first-section-title {
@@ -109,6 +110,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .btn {
@@ -119,6 +121,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn:hover {
