@@ -81,6 +81,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-span {
@@ -90,7 +91,6 @@ a {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .nav-link {
